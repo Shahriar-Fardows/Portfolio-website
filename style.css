@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ============header style work============= */
+header {
+  background: #fff8f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 100vw;
+  height: 52.313rem;
+  flex-shrink: 0;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+nav h1 {
+  color: var(--dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+nav ul li {
+  display: inline;
+  margin-right: 52px;
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.btn-head {
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: var(--white-color, #fff);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+.header-info {
+  margin: 14rem 21rem;
+}
+.header-info h1 {
+  color: var(--dark-01, #181818);
+  font-family: Open Sans;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header-info h2 {
+  color: var(--dark-02, #474747);
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.header-info p {
+  margin-top: 25px 0px;
+  width: 585px;
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.btn-1 {
+  margin: 20px 0px;
+  border: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 200px;
+  height: 64px;
+  flex-shrink: 0;
+  color: var(--white-color, #fff);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.btn-2 {
+  margin: 20px 15px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  background: #FFF8F3;
+  width: 200px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #fd6e0a;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+i {
+  margin: 0px 8px;
+}
+.owner-pic {
+  margin: 3rem 35px 0px 0px;
+}
