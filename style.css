@@ -14,7 +14,7 @@ header {
   width: 100vw;
   height: 52.313rem;
   flex-shrink: 0;
-  background-image: url(../images/header_bg.png);
+  background-image: url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
 }
