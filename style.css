@@ -55,7 +55,7 @@ nav ul li {
   font-weight: 700;
   line-height: normal;
 }
-section {
+.head-section {
   background-image: url(./images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -111,7 +111,7 @@ section {
   margin: 20px 15px;
   border: 1px solid #fd6e0a;
   border-radius: 5px;
-  background: #FFF8F3;
+  background: #fff8f3;
   width: 200px;
   height: 64px;
   flex-shrink: 0;
@@ -128,4 +128,54 @@ i {
 }
 .owner-pic {
   margin: 3rem 35px 0px 0px;
+}
+
+/* ============main style work============= */
+#main {
+  margin: 130px 230px;
+}
+.section-1 {
+  background-color: #fff8f3;
+  text-align: center;
+  padding: 130px 156px;
+}
+.About-me h1 {
+  color: var(--dark-01, #181818);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.About-me p {
+  margin: 30px 0px;
+  color: var(--dark-03, #757575);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+.info div h1{
+  color: var(--dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+.info div p{
+  color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
 }
