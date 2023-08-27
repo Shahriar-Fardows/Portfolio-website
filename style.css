@@ -12,11 +12,11 @@ header {
   background: #fff8f3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   width: 100vw;
-  height: 52.313rem;
+  height: auto;
   flex-shrink: 0;
-  background-image: url(./images/header_bg.png);
+  background-image: url(./images/developer.png);
   background-repeat: no-repeat;
-  background-position: bottom right;
+  background-position: 10% 65%;
 }
 nav {
   display: flex;
@@ -56,6 +56,9 @@ nav ul li {
   line-height: normal;
 }
 section {
+  background-image: url(./images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
   display: flex;
   justify-content: space-between;
 }
