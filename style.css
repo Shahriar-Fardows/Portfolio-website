@@ -131,9 +131,10 @@ i {
 }
 
 /* ============main style work============= */
-#main {
+main {
   margin: 130px 230px;
 }
+/* -----------------section-1 style------------------- */
 .section-1 {
   background-color: #fff8f3;
   text-align: center;
@@ -162,20 +163,76 @@ i {
   display: flex;
   justify-content: space-around;
 }
-.info div h1{
+.info div h1 {
   color: var(--dark-03, #757575);
-text-align: center;
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px; /* 150% */
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
 }
-.info div p{
+.info div p {
   color: var(--dark-02, #474747);
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: 30px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/* -----------------------section-2 style------------- */
+
+.section-2 {
+  margin-top: 130px;
+}
+.div-1 {
+  text-align: center;
+}
+.div-1 h1 {
+  margin-bottom: 30px;
+  color: var(--dark-01, #181818);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.div-1 p {
+  color: var(--dark-03, #757575);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.div-2 {
+  margin: 50px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+  padding: 30px;
+  border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.card h3 {
+  padding: 30px 0px;
+
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card p {
+  color: var(--dark-03, #757575);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
 }
