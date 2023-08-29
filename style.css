@@ -319,7 +319,7 @@ height: 780px;
 background: #FFF8F3;
 display: flex;
 justify-content: space-evenly;
-padding: 230px 0px;
+padding: 150px 0px;
 }
 footer div h1{
   color: var(--dark-01, #181818);
