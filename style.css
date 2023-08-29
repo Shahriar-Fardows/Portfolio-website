@@ -294,3 +294,84 @@ font-style: normal;
 font-weight: 400;
 line-height: 28px; /* 175% */
 }
+.btn-lest {
+  margin: 0px 627px 113px 627px;
+  border: none;
+  border-radius: 5px;
+  background: #fd6e0a;
+  width: 200px;
+  height: 64px;
+  flex-shrink: 0;
+  color: var(--white-color, #fff);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* ---------------------footer style==================== */
+
+footer{
+  width: auto;
+height: 780px;
+background: #FFF8F3;
+display: flex;
+justify-content: space-evenly;
+padding: 230px 0px;
+}
+footer div h1{
+  color: var(--dark-01, #181818);
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+footer div p{
+  margin: 20px 0px 30px 0px;
+  color: var(--dark-02, #474747);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+footer div img{
+  margin-right: 24px;
+}
+footer div .box{
+  border-radius: 5px;
+background: var(--white-color, #FFF);
+width: 461px;
+height: 64px;
+border: none;
+padding: 20px;
+}
+footer div textarea {
+  border-radius: 5px;
+background: var(--white-color, #FFF);
+width: 461px;
+height: 180px;
+padding: 14px;
+border:  none;
+}
+footer div .input{
+  margin-top: 28px;
+}
+.btn-footer {
+  margin-top: 24px;
+  width: 150px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  color: var(--white-color, #fff);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
